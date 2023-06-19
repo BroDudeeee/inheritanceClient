@@ -1,0 +1,141 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-weight: 500;
+}
+
+.inputs-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 20px;
+  flex-wrap: wrap;
+  height: 82.2vh;
+  z-index: 9;
+}
+
+.relative-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.relative-input-options {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.relative-input input {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  width: 8rem;
+}
+
+.relative-input input:hover {
+  border: 2px solid lightgray;
+}
+
+.relative-input input:focus {
+  outline: 1px solid darkgray;
+}
+
+.calculate-btn {
+  position: absolute;
+  bottom: 100px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+  z-index: 9;
+}
+
+.calculate-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.radio-input {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.black {
+  position: absolute;
+  height: 100vh;
+  background-color: black;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  opacity: 70%;
+}
+
+.toggleOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainOption {
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  min-width: 15rem;
+}
+
+.allToggleMe {
+  background-color: rgb(245, 245, 245);
+
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mirathForm {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  width: 50%;
+  margin: 10px 0;
+}
+
+.mirathForm input {
+  display: flex;
+  flex: 1;
+  padding: 0.7rem;
+}
+
+@media screen and (max-width: 800px) {
+  .inputs-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .allToggleMe {
+    min-width: 70%;
+  }
+
+  .black {
+    height: calc(100vh + 15vh);
+  }
+  .calculate-btn {
+    position: relative;
+    margin-top: 100px;
+  }
+}

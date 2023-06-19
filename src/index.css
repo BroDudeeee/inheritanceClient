@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.app-container {
+  background-image: url(./assets/background.avif);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sign-input-number::-webkit-outer-spin-button,
+.sign-input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+.references {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  max-width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 30px;
+}

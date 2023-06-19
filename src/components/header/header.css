@@ -1,0 +1,78 @@
+header {
+  background-color: white;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: sticky;
+  top: 0;
+  padding: 1px 0;
+  background-color: rgb(241, 240, 240);
+  z-index: 999;
+}
+
+header:hover {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: rgb(109, 108, 108);
+}
+
+.link.sign {
+  margin: 0 10px;
+}
+
+.user-logout {
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn {
+  margin: 5px 10px 0 10px;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  color: red;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.icon-img {
+  width: 2rem;
+  margin: 0 10px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.ref-img {
+  display: flex;
+  margin: 10px auto 50px auto;
+}
+
+.logo {
+  width: 3rem;
+
+  object-fit: cover;
+  height: 3rem;
+}

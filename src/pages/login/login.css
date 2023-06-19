@@ -1,0 +1,54 @@
+.sign-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  box-sizing: border-box;
+}
+
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(206, 202, 202);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sign-form .sign-section > input {
+  padding: 15px;
+  margin: 5px 0;
+  border: 2px solid lightgray;
+}
+
+.sign-container .sign-section > input:hover {
+  border: 2px solid darkgray;
+}
+
+.sign-container .sign-section > input:focus {
+  outline: 1px solid darkgray;
+}
+
+.sign-form .btn {
+  display: flex;
+  margin: 10px auto;
+  padding: 10px 30px;
+  background-color: rgb(70, 71, 71);
+  color: #fff;
+  border: 2px solid black;
+}
+
+.sign-form .btn:disabled {
+  color: rgb(87, 85, 85);
+}
+
+.sign-container .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.sign-form .btn:disabled:hover {
+  background-color: rgb(70, 71, 71);
+  color: rgb(87, 85, 85);
+}
