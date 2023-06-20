@@ -3,6 +3,7 @@ import Login from "./pages/login/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Register from "./pages/register/Register";
 import Reference from "./pages/Reference";
+import Chatbot from "./pages/chatbot/Chatbot";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/reference" element={<Reference />} />
+          <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </BrowserRouter>
     </section>

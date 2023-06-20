@@ -24,6 +24,11 @@ const Header = () => {
             </Link>
           </li>
           <li>
+            <Link to={"/chatbot"} className="link">
+              Chatbot
+            </Link>
+          </li>
+          <li>
             <Link className="link" to={"/reference"}>
               <img
                 src="https://cdn-icons-png.flaticon.com/128/3038/3038089.png"

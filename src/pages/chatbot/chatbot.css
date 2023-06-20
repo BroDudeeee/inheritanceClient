@@ -1,0 +1,64 @@
+.chatbot {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+
+.question-answer-box {
+  width: 40%;
+}
+
+.chat-form {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  width: 70%;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.chat-input {
+  flex: 1;
+  font-size: large;
+}
+
+.ask-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.ask-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.ask-btn:disabled {
+  cursor: auto;
+}
+
+.question {
+  background-color: lightgray;
+  margin-right: 0;
+  text-align: center;
+  margin-left: auto;
+  width: 300px;
+  margin: 5px 0 5px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.answer {
+  background-color: rgb(80, 202, 250);
+  margin: 5px auto 5px 0;
+  padding: 5px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
